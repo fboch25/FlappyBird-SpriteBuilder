@@ -5,6 +5,7 @@
 @implementation GamePlayScene
 
 - (void)initialize
+[self addObstalce];
 {
     // your code here
     character = ((Character*)[CCBReader load:@"Character"]);
@@ -15,7 +16,7 @@
 -(void)update:(CCTime)delta
 {
     // put update code here
-    [self addObstacle];
+    
     
 }
 
