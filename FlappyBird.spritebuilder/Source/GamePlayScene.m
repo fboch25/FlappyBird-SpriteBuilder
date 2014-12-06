@@ -29,7 +29,7 @@ timeSinceObstacle = 0.0f;
 
 }
 // put new methods here
-    
+    - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
     
     
     [character flap];
