@@ -5,11 +5,12 @@
 @implementation GamePlayScene
 
 - (void)initialize
-[self addObstalce];
+
 {
     // your code here
     character = ((Character*)[CCBReader load:@"Character"]);
     [physicsNode addChild:character];
+    [add Obstacle];
    
 }
 
