@@ -30,8 +30,10 @@ timeSinceObstacle = 0.0f;
 }
 // put new methods here
     
-    - (void)touchBegan:(UITouch *)touch withEvent:(UIEVent *)event {
+    - (void) touchBegan:(UITouch *)touch withEvent:(UIEVent *)event {
+    
     [character flap];
+        
     [self addObstacle];
     timeSinceObstacle = 0.0f;
     
