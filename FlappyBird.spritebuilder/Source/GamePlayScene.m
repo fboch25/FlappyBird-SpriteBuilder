@@ -15,14 +15,14 @@
 -(void)update:(CCTime)delta
 {
     // put update code here
-    
+    [self addObstacle];
     
 }
 
 // put new methods here
 -(void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
     [character flap];
-    [self addObstacle];
+    
 }
 
 @end
