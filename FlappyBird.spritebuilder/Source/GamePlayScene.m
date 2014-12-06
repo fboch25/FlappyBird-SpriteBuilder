@@ -10,7 +10,7 @@
     // your code here
     character = ((Character*)[CCBReader load:@"Character"]);
     [physicsNode addChild:character];
-    [self addOBstacle];
+    
    
 }
 
@@ -24,6 +24,8 @@
 // put new methods here
 -(void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
     [character flap];
+    [self addObstacle];
+    
     
 }
 
