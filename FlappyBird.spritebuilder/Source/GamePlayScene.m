@@ -26,10 +26,9 @@
 
 }
 // put new methods here
-    - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
+    - [(void)touchBegan:][(UITouch *)touch withEvent:[(UIEvent *) ]event ] ]{
     
     
-        [character flap];
         
   
     
